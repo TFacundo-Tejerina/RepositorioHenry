@@ -4,65 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
 <body>
     <header>
-        <h1>Bebida energetica speed</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, doloribus perspiciatis omnis reiciendis quaerat soluta voluptate, asperiores, velit obcaecati accusamus a. Ea ratione quos earum ipsam voluptate, minus reiciendis nisi?</p>
+        <div class="titulo">
+            <h1 id="titulo-principal">Bebida energetica <span class="marca">Speed</span></h1>
+            <p id="autor">Hecho por: Speed Unlimited Austria</p>
+        </div>
     </header>
-    <hr />
     <main>
         <section>
-            <article>
-                <h2>¿Que es speed?</h2>
-
-                <p>
-                    Segun nos dice la pagina oficial de speed: <i>
-                    SPEED UNLIMITED ENERGY DRINK ES UNA BEBIDA SIN ALCOHOL QUE AYUDA A ESTIMULAR EL METABOLISMO, FACILITANDO LA ELIMINACIÓN DE TOXINAS.</i>
-                </p>
-
-                <img src="./descarga.jpg">
-
-            </article>
-            <article>
-                <h2>¿Para que nos sirve?</h2>
-
-                <p>
-                    Se dice que ayuda a: 
-                </p>
-
-                <ul>
-                    <li>Estimular el metabolismo de la energia</li>
-                    <li>Eliminar las toxinas</li>
-                    <li>Mejorar el estado de animo</li>
-                    <li>Mejorar la concentracion</li>
-                    <li>Mejorar la recuperacion</li>
-                </ul>
-
-                <p>
-                    Las bebidas energizantes como Speed Unlimited pueden estimular la persona que las consume, disminuyendo temporalmente la sensación de fatiga y agotamiento. También pueden:
-                </p>
-
-                <ul>
-                    <li>Aumentar la habilidad mental</li>
-                    <li>La resistencia fisica</li>
-                </ul>
-
-                <img src="./ejercicio.png" alt="">
-
-            </article>    
+            <div class="contenedor-articulos">
+                <article>
+                    <div class="articulos">
+                        <h2>¿Que es speed?</h2>
+    
+                        <p>
+                            Segun nos dice la pagina oficial de speed: <i>
+                            SPEED UNLIMITED ENERGY DRINK ES UNA BEBIDA SIN ALCOHOL QUE AYUDA A ESTIMULAR EL METABOLISMO, FACILITANDO LA ELIMINACIÓN DE TOXINAS.</i>
+                        </p>
+    
+                        <img class="fotos" src="./descarga.jpg">
+    
+                    </div>
+                </article>
+                <article>
+                    <div class="articulos">
+                        <h2>¿Para que nos sirve?</h2>
+    
+                    <p>
+                        Se dice que ayuda a: 
+                    </p>
+    
+                    <div class="lista">
+                        <ul>
+                            <li>Estimular el metabolismo de la energia</li>
+                            <li>Eliminar las toxinas</li>
+                            <li>Mejorar el estado de animo</li>
+                            <li>Mejorar la concentracion</li>
+                            <li>Mejorar la recuperacion</li>
+                        </ul>
+                    </div>
+    
+                    <p>
+                        Las bebidas energizantes como Speed Unlimited pueden estimular la persona que las consume, disminuyendo temporalmente la sensación de fatiga y agotamiento. También pueden:
+                    </p>
+    
+                    <div class="lista">
+                        <ul>
+                            <li>Aumentar la habilidad mental</li>
+                            <li>La resistencia fisica</li>
+                        </ul>
+                    </div>
+    
+                    <img class="fotos" src="./ejercicio.png" alt="">
+    
+                    </div>
+                </article>
+            </div>    
         </section>
-        <hr />
-        <footer>
+    </main>
+    <footer>
+        <div class="footer-redes">
             <h2>Redes sociales:</h2>
 
-            <p></p>
-
-            <a href="https://speed-unlimited.com.ar/" target="_blank">Pagina oficial</a>
-            <a href="https://www.instagram.com/speedunlimited_/" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/speedunlimitedok" target="_blank">Facebook</a>
-            <a href="https://x.com/speedunlimited_?prefetchTimestamp=1733276274107" target="_blank">Twitter</a>
-        </footer>
-    </main>
+            <a id="pagina" href="https://speed-unlimited.com.ar/" target="_blank">Pagina oficial</a>
+            <a id="instagram" href="https://www.instagram.com/speedunlimited_/" target="_blank">Instagram</a>
+            <a id="facebook" href="https://www.facebook.com/speedunlimitedok" target="_blank">Facebook</a>
+            <a id="twitter" href="https://x.com/speedunlimited_?prefetchTimestamp=1733276274107" target="_blank">Twitter (X)</a>
+        </div>
+        <h3>Mas informacion sobre donde contactarse: </h3>
+        <div class="footer-info">
+            <div class="info">
+                <p>Numero de telefono: </p>
+                <p>011 4460-4460</p>
+            </div>
+            <div class="info">
+                <p>Correo electronico: </p>
+                <p>info@speed-unlimited.com.ar</p>
+            </div>
+            <div class="info">
+                <p>Direccion: </p>
+                <p>Berón de Astrada 679, Ramos Mejía, Buenos Aires</p>
+            </div>
+        </div>
+        <p class="derechos">
+            © 2024 Speed Unlimited Austria. Todos los derechos reservados. Prohibida la reproducción total o parcial de este contenido sin autorización previa y por escrito del titular de los derechos.</p>
+    </footer>
 </body>
 </html>
